@@ -1,0 +1,95 @@
+---
+title: "Choose how guests are verified"
+description: "Beacons, WiFi or GPS. Which one suits your Venue, what it costs, and how to get it running."
+---
+
+Local only lets a guest into your Venue once it has detected they are physically there. Three technologies can do that detection. You pick one — the setup wizard recommends a fit when you sign up, but the choice is yours.
+
+Until one is active, nobody can enter your Venue.
+
+## The three options
+
+<CardGroup cols={3}>
+  <Card title="Bluetooth beacons" icon="bluetooth">
+    Small devices you place in your Venue. The only option you can set up yourself.
+  </Card>
+  <Card title="WiFi network" icon="wifi">
+    Your existing access points act as the presence signal.
+  </Card>
+  <Card title="GPS geofence" icon="map-pin">
+    A boundary drawn around your site.
+  </Card>
+</CardGroup>
+
+## Which one fits
+
+| | Beacons | WiFi | GPS |
+| --- | --- | --- | --- |
+| **Best for** | Bars, cafés, restaurants, shops — anywhere without managed network gear | Hotels, multi-room or distributed venues with managed access points | Resorts, campgrounds, remote B&Bs, open-air events |
+| **Precision** | Room-level, and can gate individual zones | Per access point | Site-level boundary |
+| **Needs existing infrastructure** | No | Yes — managed APs | No |
+| **You can set it up yourself** | Yes | No | No |
+| **Cost** | Paid hardware | No hardware | No hardware |
+| **How to get it** | Order through the setup wizard | Contact Local support | Contact Local support |
+
+<Tip>
+Beacons are the only option that supports **gated zone rooms** — chat rooms that open only for guests standing near a specific beacon. If you run a large Venue and want to drive traffic to a particular area, that is an argument for beacons even where WiFi would otherwise do.
+</Tip>
+
+## Beacons
+
+Beacons are paid hardware. There is currently a promotion offering a free beacon to approved requests — ask during signup or contact support.
+
+**How many you need:** one or two for a small Venue, three for a larger one. The setup wizard recommends a number based on what you tell it about your space.
+
+**What you receive:** USB-powered or battery-powered iBeacons, unconfigured from the factory.
+
+### The lifecycle
+
+<Steps>
+  <Step title="Order">
+    Through the setup wizard at signup, or by contacting support later.
+  </Step>
+  <Step title="We ship">
+    Local adds the beacons to your Venue profile and marks them shipped. They appear in the app's device management section before they reach you.
+  </Step>
+  <Step title="You configure them">
+    Open device management in the app. It lists the beacons you should have received. Tap the scan button — the app finds them, connects, and writes the correct identifier and a protected password to each one.
+
+    If several beacons are in range, all of them are configured in a single pass.
+  </Step>
+</Steps>
+
+That is the whole setup. Two steps in the app, no technical knowledge, no pairing codes to type.
+
+## WiFi
+
+If you run managed access points, they can serve as the presence signal: Local recognises your Venue from the access point a guest is connected to.
+
+This is not self-serve. Contact Local support and we will configure it against your network.
+
+<Note>
+Guests are also offered a one-tap WiFi profile install during onboarding, which lets them connect to Local-enabled networks automatically on future visits.
+</Note>
+
+## GPS
+
+A geofence around your site. Suited to large, isolated locations where a guest being "within the boundary" genuinely means they are at your Venue.
+
+Not self-serve — contact Local support. Your address polygon was already pulled from OpenStreetMap at signup, so there is usually a boundary to start from.
+
+<Warning>
+GPS is a poor fit for a Venue on a busy street or in a shopping centre, where the boundary would also catch people walking past or sitting in the business next door. Use beacons or WiFi there.
+</Warning>
+
+## Checking it works
+
+Once presence is live, the fastest test is to walk into your Venue with a phone that is **not** signed in as an admin. A guest account should move from the lobby screen to your Venue's welcome screen within a few seconds.
+
+Your admin account will not test this correctly — admins bypass presence verification by design.
+
+## Next
+
+<Card title="Your first 15 minutes" icon="stopwatch" href="/get-started/first-15-minutes">
+  What to set up before you open to guests.
+</Card>

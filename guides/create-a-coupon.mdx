@@ -1,0 +1,140 @@
+---
+title: "Create a coupon"
+description: "Design an offer, choose how it reaches guests, and make sure your staff understand the two-minute redemption window."
+---
+
+Coupons are how you put something of value into a guest's hands while they are standing in your Venue. You design them in Business Tools; loyalty rules, gamification levels or an admin handing one over decide who gets one.
+
+## Create the coupon
+
+**Business tab → Coupons → New**
+
+A live preview sits at the top of the form and updates as you type, so you can see the card exactly as guests will.
+
+[SCREENSHOT: New Coupon screen with live preview]
+
+<Steps>
+  <Step title="Pick a category">
+    Chips across the top: **Drink**, **Food**, **Discount** and others. The category sets the icon and colour on the guest's card, so it is how they recognise the offer at a glance in a list.
+  </Step>
+  <Step title="Write the title">
+    This is the offer, in a few words. "House Spritz", "20% off the bill", "Free dessert".
+
+    Keep it short — it is read on a phone, on a card, often in a dark room.
+  </Step>
+  <Step title="Add a description (optional)">
+    Up to 120 characters. Use it for the condition that would otherwise cause an argument at the counter: who qualifies, what it applies to, what it does not.
+
+    "1 free spritz for new customers" is the kind of thing that belongs here.
+  </Step>
+  <Step title="Set the validity">
+    Validity is a **duration after issue**, not a calendar range. A coupon set to 24 hours expires 24 hours after the moment that particular guest receives it — so two guests who receive the same coupon on different days have different expiry times.
+
+    The preview shows it as "Expires 24 hours after issue".
+
+    <Note>
+    This is how long a guest can hold the coupon before using it. It is separate from the two-minute window that opens once they activate it at the counter — see [How redemption works](#how-redemption-works).
+    </Note>
+  </Step>
+  <Step title="Save">
+    The coupon now exists and can be attached to a rule or handed out.
+  </Step>
+</Steps>
+
+<Warning>
+There is no quantity cap and no per-guest limit. If you attach a coupon to a loyalty rule, every guest who meets the rule receives one, for as long as the rule is active. Budget accordingly, and use the validity duration to limit exposure — a short window means unredeemed coupons expire rather than accumulating as an open liability.
+</Warning>
+
+## Get it into guests' hands
+
+A saved coupon does nothing on its own. Three ways to distribute it:
+
+| Route | How it works |
+| --- | --- |
+| **Loyalty program** | Automatically, after a guest completes a number of visits within a time window |
+| **Gamification level** | Automatically, when a guest reaches a level you choose |
+| **By hand** | An admin or owner gives it to a specific guest, from the guest's profile screen or from the coupon page. Staff cannot. |
+
+The two automatic routes own their own rules — the coupon itself carries no targeting.
+
+## How redemption works
+
+This is the part to brief your staff on. It is time-limited, it requires an action from your side, and it fails permanently if nobody completes it.
+
+<Steps>
+  <Step title="The guest activates the coupon">
+    From their coupon list, they confirm activation. The coupon moves from **Available** to **Active**.
+  </Step>
+  <Step title="A two-minute window opens">
+    The screen shows a countdown from **02:00**, colour-coded as it runs down:
+
+    | Time remaining | Colour |
+    | --- | --- |
+    | 2:00 – 1:00 | Green |
+    | 1:00 – 0:20 | Amber |
+    | Under 0:20 | Red, pulsing |
+  </Step>
+  <Step title="Staff check today's key">
+    The screen also shows your Venue's **daily key** — an emoji and a word, regenerated every day and unique to your Venue. Staff compare it against today's key. This is what proves the screen is genuine.
+  </Step>
+  <Step title="Staff swipe to redeem">
+    A slider on the screen reads **Swipe to redeem**. Your staff member swipes it right to confirm.
+  </Step>
+  <Step title="The coupon is recorded as redeemed">
+    The redemption is logged against the guest and appears in your coupon history.
+  </Step>
+</Steps>
+
+<Warning>
+**If the two minutes run out, the coupon is gone.** It moves to a permanent **Expired** state — not back to Available. A guest who activates the coupon while queuing, or before finding a staff member, loses it. There is no undo; the only remedy is to issue a replacement by hand.
+
+This is the single most likely source of guest complaints about coupons. Make sure staff know to swipe promptly, and that guests are told to activate only once they are at the counter.
+</Warning>
+
+### Why it is built this way
+
+Two things make the screen hard to fake. The countdown is live, so a screenshot or a recording will not match it. The daily key changes every day and differs per Venue, so a screen captured yesterday — or at another Venue — shows the wrong emoji and word.
+
+Together they give you trustworthy redemption with no scanner, no code entry and no POS integration.
+
+### What to tell staff
+
+Brief them on four things:
+
+1. **Know today's key.** Check it at the start of each shift. Everything else depends on it.
+2. **Check the key matches** on the guest's screen before anything else. Wrong key, no redemption.
+3. **Check the countdown is running.** A still screen is not a live coupon.
+4. **Swipe promptly.** The guest loses the coupon permanently if the timer reaches zero, and they will blame you, not the app.
+
+<Tip>
+Write today's key on a card by the till at the start of each shift. It takes ten seconds and removes the most common reason a valid coupon gets refused.
+</Tip>
+
+## Review what happened
+
+**Business tab → Coupons** shows the history: every coupon issued and every redemption.
+
+**Business tab → Reports → Coupons** gives you the numbers:
+
+| Metric | What it tells you |
+| --- | --- |
+| Coupons Generated & Distributed | Total put into guests' hands |
+| Redemption Rate | The share actually used — the real measure of whether the offer landed |
+| Manual Gifts | How many your team handed out directly |
+
+<Tip>
+A low redemption rate usually means one of four things: the offer is not attractive enough, the validity duration is too short for the way guests actually visit, guests receive coupons at a moment when they cannot use them, or coupons are being activated and then expiring in the two-minute window before staff swipe.
+
+Check the validity duration first — it is the cheapest to change. If staff report guests arriving with already-expired screens, the problem is the briefing, not the offer.
+</Tip>
+
+## Related
+
+<CardGroup cols={2}>
+  <Card title="Roles and permissions" icon="users" href="/reference/roles-matrix">
+    Who can gift a coupon, and who cannot.
+  </Card>
+  <Card title="Your first 15 minutes" icon="stopwatch" href="/get-started/first-15-minutes">
+    The rest of the setup checklist.
+  </Card>
+</CardGroup>
