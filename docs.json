@@ -1,37 +1,41 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Local for Venues",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#5B7FFF",
+    "light": "#00D1B2",
+    "dark": "#0B1437"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Get started",
+        "icon": "rocket",
         "pages": [
           "index",
-          "quickstart"
+          "get-started/create-your-venue",
+          "get-started/claim-your-venue",
+          "get-started/choose-presence",
+          "get-started/first-15-minutes"
+        ]
+      },
+      {
+        "group": "Guides",
+        "icon": "book-open",
+        "pages": [
+          "guides/create-a-coupon"
+        ]
+      },
+      {
+        "group": "Reference",
+        "icon": "list",
+        "pages": [
+          "reference/roles-matrix"
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -41,13 +45,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "href": "mailto:support@meetlocal.app"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Create your Venue",
+      "href": "https://meetlocal.app"
     }
   },
   "contextual": {
@@ -64,9 +68,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://meetlocal.app"
     }
-  }
+  },
+  "description": "Documentation for venue owners and staff running a Venue on Local."
 }
